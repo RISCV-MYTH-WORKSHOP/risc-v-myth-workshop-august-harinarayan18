@@ -24,6 +24,9 @@ RV-D3SK1 - simple Counter Code
    *failed = 1'b0;
 \SV
    endmodule
+   
+   
+Makerchip URL: https://makerchip.com/sandbox/00Rf2h2Zv/0KOh2MV#
 
 RV-D3SK3 - simple CAlculator Code
 
@@ -71,6 +74,9 @@ RV-D3SK3 - simple CAlculator Code
    *failed = 1'b0;
 \SV
    endmodule
+   
+   
+Makerchip URL: https://makerchip.com/sandbox/00Rf2h2Zv/0xGh1D1#   
 
 RV-D3SK3 - 2 Cycle  CAlculator Code
 
@@ -128,6 +134,8 @@ RV-D3SK3 - 2 Cycle  CAlculator Code
 \SV
    endmodule
 
+
+Makerchip URL: https://makerchip.com/sandbox/00Rf2h2Zv/01jhM84#
 
 RV-D3SK3 - 2 Cycle  CAlculator Alternate Code
 
