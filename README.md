@@ -76,22 +76,22 @@ Notable features of the RISC-V ISA include a load–store architecture, bit patt
   - To run we use spike which is a RISC-V simulator, following is the command `spike pk 1to9_custom.o`.
   
   **Output 1 on console**
-  ![](DAY2/Day2_RV-D1SK3_Lab_code.JPG)
+  ![(Day2/Day2_RV-D1SK3_Lab_code.JPG)
   
   **Output 2 on console**
-  ![](DAY2/Day2_RV-D1SK3_Lab_solution1.JPG)
+  ![](Day2/Day2_RV-D1SK3_Lab_solution1.JPG)
   
   **Output 3 on console**
-  ![](DAY2/Day2_RV-D1SK3_Lab_solution2.JPG)
+  ![](Day2/Day2_RV-D1SK3_Lab_solution2.JPG)
   
   **Output 4 on console**
-  ![](DAY2/Day2_RV-D1SK3_Lab_solution3.JPG)
+  ![](Day2/Day2_RV-D1SK3_Lab_solution3.JPG)
   
   **Output 5 on console**
-  ![](DAY2/Day2_RV-D1SK3_Lab_solution4.JPG)
+  ![](Day2/Day2_RV-D1SK3_Lab_solution4.JPG)
   
   **Output 6 on console**
-  ![](DAY2/Day2_RV-D1SK3_Lab_solution5.JPG)
+  ![](Day2/Day2_RV-D1SK3_Lab_solution5.JPG)
 
 
 # Day 3 Introduction to TL Verilog and Makerchip. 
@@ -109,22 +109,22 @@ Notable features of the RISC-V ISA include a load–store architecture, bit patt
       THis lab is to understand the TL-Verilog coding style using a simple counter logic to be built and tested. 
   
   **Makerchip IDE** 
-   ![](DAY3/Day3_Counter.JPG)
+   ![](Day3_5/Day3_Counter.JPG)
     
   ## Lab: 1 Cycle Sequential Calculator 
    This Lab exercise is to advance to next stage to understand the basic of computing by creating a simple calculator function that computes all the calculation in the given single pipeline logic.
 
    **Makerchip IDE** 
-   ![](DAY3/Day3_Calc.JPG)
+   ![](Day3_5/Day3_Calc.JPG)
    
 ## Lab: 2 Cycle Sequential Calculator 
    This Lab exercise is to advance to next stage to understand the basic of computing by creating a simple calculator function that computes all the calculation in the given two stage pipeline logic.This gives us a basic understanding of the pipeline stages to be used in design. The code can be found [here](https://github.com/RISCV-MYTH-WORKSHOP/risc-v-myth-workshop-august-harinarayan18/blob/master/Day3_5/calculator_solutions.tlv).
 
    **Makerchip IDE** 
-   ![](DAY3/Day3_2cycCalc.JPG)
+   ![](Day3_5/Day3_2cycCalc.JPG)
    
    **Makerchip IDE ALTERNATE Code** 
-   ![](DAY3/Day3_2cycCalc_alt.JPG)
+   ![](Day3_5/Day3_2cycCalc_alt.JPG)
      
 # Day 4 RISCV CPU Core Implementation.
  On this day, the plan was to implement the following :
@@ -141,13 +141,13 @@ Notable features of the RISC-V ISA include a load–store architecture, bit patt
 
   
    **RISC-V CORE Diagram**
-   ![](DAY4/Day4_risc-v_Dia.JPG)
+   ![](Day3_5/Day4_risc-v_Dia.JPG)
    
    **RISC-V CORE Debug Vizualizer**
-   ![](DAY4/Day4_risc-v_viz.JPG)
+   ![](Day3_5/Day4_risc-v_viz.JPG)
    
    **RISC-V CORE Waveform**
-   ![](DAY4/Day4_risc-v_Wav.JPG)
+   ![](Day3_5/Day4_risc-v_Wav.JPG)
    
 # Day 5 Pipelining the RISCV Core.
    Finally,we developed the pipelined model for the core developed on Day 4. 
@@ -160,13 +160,13 @@ Notable features of the RISC-V ISA include a load–store architecture, bit patt
    
   
    **Final RISC V CPU Core Diagram**
-   ![](DAY5/Day5_risc-v_Dia.JPG.png)
+   ![](Day3_5/Day5_risc-v_Dia.JPG.png)
    
    **Final RISC V CPU Core Waveform 1**
-   ![](DAY5/Day5_risc-v_Wav1.JPG)
+   ![](Day3_5/Day5_risc-v_Wav1.JPG)
    
    **Final RISC V CPU Core Waveform 2**
-   ![](DAY5/Day5_risc-v_Wav2.JPG)
+   ![](Day3_5/Day5_risc-v_Wav2.JPG)
    
 # Acknowledgements
 - [Kunal Ghosh](https://github.com/kunalg123), Co-founder (VSD Corp. Pvt. Ltd)
