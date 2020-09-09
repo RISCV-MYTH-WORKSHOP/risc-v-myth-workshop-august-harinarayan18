@@ -76,7 +76,7 @@ Notable features of the RISC-V ISA include a load–store architecture, bit patt
   - To run we use spike which is a RISC-V simulator, following is the command `spike pk 1to9_custom.o`.
   
   **Output 1 on console**
-  ![(Day2/Day2_RV-D1SK3_Lab_code.JPG)
+  ![](Day2/Day2_RV-D1SK3_Lab_code.JPG)
   
   **Output 2 on console**
   ![](Day2/Day2_RV-D1SK3_Lab_solution1.JPG)
