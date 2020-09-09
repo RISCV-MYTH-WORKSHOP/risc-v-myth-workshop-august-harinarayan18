@@ -75,13 +75,23 @@ Notable features of the RISC-V ISA include a load–store architecture, bit patt
   - To view to disassemble and view the object file in readable format, we use `riscv64-unknown-elf-objdump -d 1to9_custom.o|less`.
   - To run we use spike which is a RISC-V simulator, following is the command `spike pk 1to9_custom.o`.
   
-  **Output on console**
-![](DAY2/Day2_RV-D1SK3_Lab_code.JPG)
-![](DAY2/Day2_RV-D1SK3_Lab_solution1.JPG)
-![](DAY2/Day2_RV-D1SK3_Lab_solution2.JPG)
-![](DAY2/Day2_RV-D1SK3_Lab_solution3.JPG)
-![](DAY2/Day2_RV-D1SK3_Lab_solution4.JPG)
-![](DAY2/Day2_RV-D1SK3_Lab_solution5.JPG)
+  **Output 1 on console**
+  ![](DAY2/Day2_RV-D1SK3_Lab_code.JPG)
+  
+  **Output 2 on console**
+  ![](DAY2/Day2_RV-D1SK3_Lab_solution1.JPG)
+  
+  **Output 3 on console**
+  ![](DAY2/Day2_RV-D1SK3_Lab_solution2.JPG)
+  
+  **Output 4 on console**
+  ![](DAY2/Day2_RV-D1SK3_Lab_solution3.JPG)
+  
+  **Output 5 on console**
+  ![](DAY2/Day2_RV-D1SK3_Lab_solution4.JPG)
+  
+  **Output 6 on console**
+  ![](DAY2/Day2_RV-D1SK3_Lab_solution5.JPG)
 
 
 # Day 3 Introduction to TL Verilog and Makerchip. 
@@ -97,6 +107,7 @@ Notable features of the RISC-V ISA include a load–store architecture, bit patt
  
  ## Lab: 1 Simple counter logic 
       THis lab is to understand the TL-Verilog coding style using a simple counter logic to be built and tested. 
+  
   **Makerchip IDE** 
    ![](DAY3/Day3_Counter.JPG)
     
@@ -111,6 +122,8 @@ Notable features of the RISC-V ISA include a load–store architecture, bit patt
 
    **Makerchip IDE** 
    ![](DAY3/Day3_2cycCalc.JPG)
+   
+   **Makerchip IDE ALTERNATE Code** 
    ![](DAY3/Day3_2cycCalc_alt.JPG)
      
 # Day 4 RISCV CPU Core Implementation.
@@ -127,9 +140,13 @@ Notable features of the RISC-V ISA include a load–store architecture, bit patt
   Thus the instruction set architecture of base integer instructions, The register file, branching,etc. and eventually the CPU core was built and tested(using appropriate testbench logic, and assembly code developed on Day 2) at the end of the day ,in similar progressive fashion like the previous day.The code can be found [here](https://github.com/RISCV-MYTH-WORKSHOP/risc-v-myth-workshop-august-harinarayan18/blob/master/Day3_5/risc-v_solutions.tlv).
 
   
-   **RISC-V CORE**
-   ![](DAY4/Day4_risc-v_Dia.JPG)	
+   **RISC-V CORE Diagram**
+   ![](DAY4/Day4_risc-v_Dia.JPG)
+   
+   **RISC-V CORE Debug Vizualizer**
    ![](DAY4/Day4_risc-v_viz.JPG)
+   
+   **RISC-V CORE Waveform**
    ![](DAY4/Day4_risc-v_Wav.JPG)
    
 # Day 5 Pipelining the RISCV Core.
@@ -142,9 +159,13 @@ Notable features of the RISC-V ISA include a load–store architecture, bit patt
    - Additionally Incorporation of Jump feature (JAL and JALR instructions) was also done.The code can be found [here](https://github.com/RISCV-MYTH-WORKSHOP/risc-v-myth-workshop-august-harinarayan18/blob/master/Day3_5/risc-v_solutions.tlv).
    
   
-   **Final RISC V CPU Core**
+   **Final RISC V CPU Core Diagram**
    ![](DAY5/Day5_risc-v_Dia.JPG.png)
+   
+   **Final RISC V CPU Core Waveform 1**
    ![](DAY5/Day5_risc-v_Wav1.JPG)
+   
+   **Final RISC V CPU Core Waveform 2**
    ![](DAY5/Day5_risc-v_Wav2.JPG)
    
 # Acknowledgements
